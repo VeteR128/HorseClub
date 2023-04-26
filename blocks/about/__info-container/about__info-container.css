@@ -1,0 +1,5 @@
+.about__info-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}

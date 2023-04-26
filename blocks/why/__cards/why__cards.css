@@ -1,0 +1,8 @@
+.why__cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 65px;
+  margin-left: calc(375% / (1920 / 100));
+  margin-right: calc(375% / (1920 / 100));
+  margin-bottom: calc(100% / (1920 / 100));
+}

@@ -1,0 +1,9 @@
+.about__card-subtitle {
+  max-width: 275px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 147%;
+  color: #0b0b0b;
+  margin: 0;
+}

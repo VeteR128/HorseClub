@@ -1,0 +1,7 @@
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(375% / (1920 / 100));
+  margin-right: calc(375% / (1920 / 100));
+}

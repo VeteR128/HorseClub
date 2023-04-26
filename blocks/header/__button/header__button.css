@@ -1,0 +1,19 @@
+.header__button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 213%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #6a5300;
+  margin-left: calc(375% / (1920 / 100));
+  padding: 21px 71px;
+  margin-bottom: 189px;
+  background: linear-gradient(180deg, #eeff7e 0%, #f5e506e2 100%);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(39, 34, 34);
+}

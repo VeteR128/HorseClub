@@ -1,0 +1,6 @@
+.about__card {
+  margin-right: 23px;
+}
+.about__card:last-child {
+  margin: 0;
+}

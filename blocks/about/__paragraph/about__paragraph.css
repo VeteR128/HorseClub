@@ -1,0 +1,11 @@
+.about__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 187%;
+  max-width: 570px;
+  width: 100%;
+  color: #7e7e7e;
+  margin: 0;
+  margin-top: 17px;
+}

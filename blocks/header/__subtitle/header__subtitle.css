@@ -1,0 +1,12 @@
+.header__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  max-width: 477px;
+  margin-left: calc(421% / (1920 / 100));
+  margin-top: calc(40% / (1920 / 100));
+
+  color: #646464;
+  margin-bottom: 42px;
+}
