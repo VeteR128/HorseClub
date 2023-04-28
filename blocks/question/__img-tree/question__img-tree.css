@@ -1,0 +1,8 @@
+.question__img-tree {
+  position: absolute;
+  width: 297px;
+
+  right: 233px;
+  bottom: -53px;
+  z-index: 3;
+}

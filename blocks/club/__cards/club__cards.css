@@ -1,0 +1,10 @@
+.club__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: calc(375% / (1920 / 100));
+  padding-right: calc(375% / (1920 / 100));
+  padding-top: 35px;
+  column-gap: 35px;
+  grid-auto-rows: 0px;
+}

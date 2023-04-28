@@ -1,0 +1,12 @@
+.club__title {
+  font-family: "Philosopher", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 90%;
+
+  text-align: center;
+
+  color: #363434;
+  padding-top: 100px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,13 @@
+.club__card-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 117%;
+
+  text-align: center;
+  color: #363434;
+  margin-left: 67px;
+  margin-right: 67px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}

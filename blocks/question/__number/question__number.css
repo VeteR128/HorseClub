@@ -1,0 +1,15 @@
+.question__number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 116%;
+  max-width: 310px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #8f8f8f;
+  border-radius: 5px;
+  color: #a5a5a5;
+  margin: 0 0 21px;
+  padding: 20px 0;
+  padding-left: 21px;
+}

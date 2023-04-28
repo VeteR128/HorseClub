@@ -1,0 +1,22 @@
+.horse__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.horse__card:nth-of-type(1) {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  margin-left: -35px;
+  opacity: 0.4;
+}
+.horse__card:nth-of-type(5) {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  margin-right: -35px;
+  opacity: 0.4;
+}
