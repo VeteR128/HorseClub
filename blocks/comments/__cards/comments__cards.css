@@ -1,0 +1,5 @@
+.comments__cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 250px;
+}
