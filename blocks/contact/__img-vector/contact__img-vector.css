@@ -1,0 +1,8 @@
+.contact__img-vector {
+  position: absolute;
+  width: 63px;
+
+  height: 92px;
+  right: calc(648% / (1920 / 100));
+  top: 307px;
+}

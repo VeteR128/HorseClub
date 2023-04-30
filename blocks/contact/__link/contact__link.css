@@ -1,0 +1,6 @@
+.contact__link {
+  margin-right: 13px;
+}
+.contact__link:last-child {
+  margin-right: 0;
+}

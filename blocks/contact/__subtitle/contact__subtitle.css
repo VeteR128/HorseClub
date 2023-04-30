@@ -1,0 +1,15 @@
+.contact__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+
+  color: #363434;
+  margin-bottom: 28px;
+  margin-right: 149px;
+  display: flex;
+  flex-direction: row;
+}
+.contact__subtitle:last-child {
+  margin-bottom: 30px;
+}
