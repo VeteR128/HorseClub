@@ -11,3 +11,22 @@
   margin-top: 0;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 1000px) {
+  .about__title {
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__title {
+    font-size: 27px;
+    line-height: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__title {
+    font-size: 21px;
+  }
+}

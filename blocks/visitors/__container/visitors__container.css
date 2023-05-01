@@ -43,3 +43,17 @@
     margin-bottom: 100px;
   }
 }
+@media screen and (max-width: 420px) {
+  .visitors__container {
+    display: grid;
+    grid-template-columns: minmax(200px, 470px);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-bottom: 3px;
+    row-gap: 5px;
+  }
+  .visitors__container:last-child {
+    grid-template-columns: minmax(200px, 470px);
+    margin-bottom: 100px;
+  }
+}

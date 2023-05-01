@@ -9,3 +9,9 @@
   color: #7e7e7e;
   margin: 0;
 }
+@media screen and (max-width: 1000px) {
+  .why__card-subtitle {
+    font-size: 13px;
+    line-height: 154%;
+  }
+}

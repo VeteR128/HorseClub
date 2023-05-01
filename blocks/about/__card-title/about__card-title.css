@@ -7,3 +7,19 @@
   margin: 0;
   color: #008139;
 }
+@media screen and (max-width: 1000px) {
+  .about__card-title {
+    font-size: 32px;
+    line-height: 160%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about__card-title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__card-title {
+    line-height: 18px;
+  }
+}

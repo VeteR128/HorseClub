@@ -13,3 +13,9 @@
     margin-right: 22px;
   }
 }
+@media screen and (max-width: 320px) {
+  .about__paragraphtwo {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

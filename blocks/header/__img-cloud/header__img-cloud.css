@@ -17,10 +17,21 @@
 @media screen and (max-width: 900px) {
   .header__img-cloud {
     margin-bottom: 72px;
+    width: 200%;
   }
 }
 @media screen and (max-width: 768px) {
   .header__img-cloud {
     margin-bottom: 62px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .header__img-cloud {
+    margin-bottom: 66px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header__img-cloud {
+    margin-bottom: 76px;
   }
 }

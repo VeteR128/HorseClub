@@ -7,7 +7,25 @@
   text-align: center;
 
   color: #363434;
-  margin-top: 100px;
+  margin-top: 0px;
 
   margin-bottom: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .club__title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .club__title {
+    font-size: 27px;
+    line-height: 133%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .club__title {
+    font-size: 21px;
+    line-height: 100%;
+  }
 }

@@ -9,3 +9,9 @@
   color: #363434;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .why__subtitle {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

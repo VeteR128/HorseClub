@@ -3,3 +3,10 @@
   flex-direction: row;
   margin-bottom: 24px;
 }
+@media screen and (max-width: 480px) {
+  .about__info-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+}

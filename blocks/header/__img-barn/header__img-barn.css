@@ -5,3 +5,17 @@
   bottom: calc(160% / (948 / 100));
   width: 25%;
 }
+@media screen and (max-width: 580px) {
+  .header__img-barn {
+    left: calc(237% / (1920 / 100));
+
+    width: 35%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__img-barn {
+    left: 0;
+
+    width: 35%;
+  }
+}

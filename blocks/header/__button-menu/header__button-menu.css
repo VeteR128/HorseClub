@@ -11,7 +11,7 @@
   margin-top: 15px;
   display: none;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .header__button-menu {
     display: block;
     margin-left: 40px;

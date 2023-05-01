@@ -11,3 +11,27 @@
   margin-top: 150px;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 1000px) {
+  .visitors__title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .visitors__title {
+    margin-top: 107px;
+    font-size: 27px;
+    line-height: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .visitors__title {
+    margin-top: 35px;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .visitors__title {
+    margin-top: 17px;
+  }
+}

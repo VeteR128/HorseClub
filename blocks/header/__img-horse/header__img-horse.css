@@ -6,3 +6,14 @@
   bottom: 96px;
   width: 28%;
 }
+@media screen and (max-width: 580px) {
+  .header__img-horse {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__img-horse {
+    width: 45%;
+    left: calc(700% / (1920 / 100));
+  }
+}

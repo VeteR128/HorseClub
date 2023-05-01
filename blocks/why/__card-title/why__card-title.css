@@ -9,3 +9,15 @@
   color: black;
   margin-bottom: 26px;
 }
+@media screen and (max-width: 1000px) {
+  .why__card-title {
+    font-size: 15px;
+    line-height: 167%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .why__card-title {
+    font-size: 14px;
+    line-height: 100%;
+  }
+}

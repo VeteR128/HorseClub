@@ -7,3 +7,15 @@
   color: #0b0b0b;
   margin: 0;
 }
+@media screen and (max-width: 1000px) {
+  .about__card-subtitle {
+    font-size: 15px;
+    line-height: 167%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__card-subtitle {
+    margin-top: 10px;
+  }
+}

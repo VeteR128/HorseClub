@@ -25,10 +25,17 @@
 @media screen and (max-width: 1000px) {
   .header__button {
     margin-left: 20px;
+    padding: 21px 50px;
   }
 }
 @media screen and (max-width: 768px) {
   .header__button {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__button {
+    margin-left: 0px;
+    padding: 17px 44px;
   }
 }

@@ -1,3 +1,18 @@
 .why {
   margin-top: calc(185% / (1920 / 100));
 }
+@media screen and (max-width: 1000px) {
+  .why {
+    margin-top: calc(70% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 768px) {
+  .why {
+    margin-top: calc(70% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 420px) {
+  .why {
+    margin-top: 30px;
+  }
+}

@@ -4,3 +4,9 @@
 .about__card:last-child {
   margin: 0;
 }
+@media screen and (max-width: 480px) {
+  .about__card {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
