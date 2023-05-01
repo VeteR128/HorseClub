@@ -12,3 +12,24 @@
   margin-top: calc(99% / (1920 / 100));
   margin-bottom: 0;
 }
+@media screen and (max-width: 1420px) {
+  .header__title {
+    margin-left: calc(150% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 47px;
+    line-height: 107%;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 37px;
+    line-height: 41px;
+    margin-left: 38px;
+    margin-right: 38px;
+    text-align: center;
+  }
+}

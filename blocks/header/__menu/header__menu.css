@@ -5,3 +5,15 @@
   margin-left: calc(375% / (1920 / 100));
   margin-right: calc(375% / (1920 / 100));
 }
+@media screen and (max-width: 1420px) {
+  .header__menu {
+    margin-left: calc(150% / (1920 / 100));
+    margin-right: calc(150% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header__menu {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

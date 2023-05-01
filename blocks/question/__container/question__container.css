@@ -3,3 +3,10 @@
   flex-direction: column;
   align-items: flex-end;
 }
+@media screen and (max-width: 870px) {
+  .question__container {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 370px;
+  }
+}

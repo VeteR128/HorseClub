@@ -19,3 +19,13 @@
   margin-top: 50px;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 1200px) {
+  .club__button {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .club__button {
+    margin-bottom: 22px;
+  }
+}

@@ -5,3 +5,10 @@
   margin-bottom: 30px;
   margin-left: 75px;
 }
+@media screen and (max-width: 800px) {
+  .contact__list {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+}

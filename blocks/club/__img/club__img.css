@@ -1,4 +1,12 @@
 .club__img {
   margin-top: -25px;
   border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media screen and (max-width: 900px) {
+  .club__img {
+    max-width: 320px;
+    width: 100%;
+  }
 }

@@ -7,3 +7,10 @@
   color: #363434;
   margin: 40px 45px 19px;
 }
+@media screen and (max-width: 1382px) {
+  .comments__subtitle {
+    font-size: 13px;
+    line-height: 185%;
+    margin: 30px 30px 19px;
+  }
+}

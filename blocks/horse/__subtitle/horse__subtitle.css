@@ -8,3 +8,11 @@
   color: #363434;
   margin: 25px 67px;
 }
+@media screen and (max-width: 1400px) {
+  .horse__subtitle {
+    font-size: 15px;
+    line-height: 100%;
+
+    margin: 15px 28px;
+  }
+}

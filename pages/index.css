@@ -108,3 +108,14 @@
 @import url(../blocks/contact/__link/contact__link.css);
 @import url(../blocks/contact/__link-img/contact__link-img.css);
 @import url(../blocks/contact/__img-vector/contact__img-vector.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__policy/footer__policy.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/about/__paragraphtwo/about__paragraphtwo.css);
+@import url(../blocks/header/__button-menu/header__button-menu.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);

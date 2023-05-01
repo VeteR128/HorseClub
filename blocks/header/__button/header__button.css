@@ -17,3 +17,18 @@
   border: none;
   box-shadow: 5px 5px 5px rgb(39, 34, 34);
 }
+@media screen and (max-width: 1420px) {
+  .header__button {
+    margin-left: calc(150% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header__button {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__button {
+    margin-left: 0px;
+  }
+}

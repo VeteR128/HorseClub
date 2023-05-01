@@ -3,3 +3,9 @@
   margin-right: 70px;
   padding-bottom: 70px;
 }
+@media screen and (max-width: 800px) {
+  .contact__navigation {
+    margin-right: 40px;
+    padding-bottom: 40px;
+  }
+}

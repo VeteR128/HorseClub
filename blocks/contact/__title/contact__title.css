@@ -8,3 +8,8 @@
   color: #000000;
   margin: 50px 270px 30px 70px;
 }
+@media screen and (max-width: 800px) {
+  .contact__title {
+    margin: 40px 198px 20px 40px;
+  }
+}

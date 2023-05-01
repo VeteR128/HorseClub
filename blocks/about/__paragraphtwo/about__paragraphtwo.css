@@ -1,0 +1,15 @@
+.about__paragraphtwo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 154%;
+  display: none;
+  color: #7e7e7e;
+}
+@media screen and (max-width: 1200px) {
+  .about__paragraphtwo {
+    display: block;
+    margin-left: 16px;
+    margin-right: 22px;
+  }
+}

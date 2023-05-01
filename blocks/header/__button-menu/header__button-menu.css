@@ -1,0 +1,19 @@
+.header__button-menu {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+
+  color: #202020;
+  background: none;
+  border: 1px solid #008139;
+  border-radius: 3px;
+  margin-top: 15px;
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .header__button-menu {
+    display: block;
+    margin-left: 40px;
+  }
+}

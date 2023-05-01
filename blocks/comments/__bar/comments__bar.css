@@ -1,3 +1,28 @@
 .comments__bar {
   margin-right: 110px;
 }
+@media screen and (max-width: 1500px) {
+  .comments__bar {
+    margin-right: 87px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .comments__bar {
+    margin-right: 57px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .comments__bar {
+    margin-right: 37px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .comments__bar {
+    margin-right: 14px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .comments__bar {
+    margin-right: 110px;
+  }
+}

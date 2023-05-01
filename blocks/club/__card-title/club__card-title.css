@@ -11,3 +11,22 @@
   margin-top: 45px;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 1700px) {
+  .club__card-title {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .club__card-title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 22px;
+
+    font-size: 15px;
+    line-height: 167%;
+  }
+}

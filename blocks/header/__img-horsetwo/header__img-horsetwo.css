@@ -2,5 +2,13 @@
   position: absolute;
   max-width: 213px;
   left: 719px;
-  top: 600px;
+  bottom: calc(182% / (948 / 100));
+  width: 10%;
+}
+@media screen and (max-width: 1700px) {
+  .header__img-horsetwo {
+    left: calc(819% / (1920 / 100));
+
+    width: 10%;
+  }
 }

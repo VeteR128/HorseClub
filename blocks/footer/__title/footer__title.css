@@ -1,0 +1,18 @@
+.footer__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 115%;
+  text-decoration-line: underline;
+
+  color: #7d808a;
+  margin-right: 40px;
+}
+.footer__title:last-child {
+  margin-right: 0px;
+}
+@media screen and (max-width: 820px) {
+  .footer__title {
+    margin-right: 0;
+  }
+}

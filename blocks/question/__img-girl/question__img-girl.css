@@ -1,8 +1,32 @@
 .question__img-girl {
   position: absolute;
   width: 1674px;
+  width: 100%;
 
-  left: 99px;
-  top: 156px;
+  left: calc(99% / (1920 / 100));
+  bottom: 0;
   z-index: 1;
+}
+@media screen and (max-width: 1780px) {
+  .question__img-girl {
+    left: calc(-99% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 870px) {
+  .question__img-girl {
+    left: calc(99% / (1920 / 100));
+    width: 137%;
+    z-index: 4;
+  }
+}
+@media screen and (max-width: 770px) {
+  .question__img-girl {
+    width: 147%;
+    left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .question__img-girl {
+    width: 157%;
+  }
 }

@@ -1,6 +1,7 @@
 .header__img-barn {
   position: absolute;
   max-width: 428px;
-  left: 337px;
-  top: 630px;
+  left: calc(337% / (1920 / 100));
+  bottom: calc(160% / (948 / 100));
+  width: 25%;
 }

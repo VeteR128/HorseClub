@@ -1,3 +1,8 @@
 .question__cloud {
   z-index: 5;
 }
+@media screen and (max-width: 840px) {
+  .question__cloud {
+    margin-top: -10px;
+  }
+}

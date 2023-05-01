@@ -2,3 +2,9 @@
   z-index: 4;
   margin-bottom: -30px;
 }
+@media screen and (max-width: 1270px) {
+  .question__cloud-two {
+    z-index: 5;
+    margin-bottom: -10px;
+  }
+}

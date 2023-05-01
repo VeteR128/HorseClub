@@ -7,3 +7,9 @@
   margin-top: 25px;
   margin-bottom: 0;
 }
+@media screen and (max-width: 1000px) {
+  .header__contact-phone {
+    font-size: 14px;
+    line-height: 114%;
+  }
+}

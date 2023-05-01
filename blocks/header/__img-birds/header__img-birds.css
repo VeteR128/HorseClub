@@ -1,6 +1,7 @@
 .header__img-birds {
   position: absolute;
   max-width: 272px;
-  left: 1409px;
+  left: calc(1409% / (1920 / 100));
   top: 157px;
+  width: 20%;
 }

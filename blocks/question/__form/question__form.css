@@ -12,3 +12,13 @@
   margin-top: -72px;
   z-index: 2;
 }
+@media screen and (max-width: 1280px) {
+  .question__form {
+    margin-right: calc(40% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 870px) {
+  .question__form {
+    margin-right: 0;
+  }
+}

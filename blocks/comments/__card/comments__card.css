@@ -22,3 +22,14 @@
   margin-bottom: 40px;
   opacity: 0.4;
 }
+@media screen and (max-width: 1100px) {
+  .comments__card:nth-of-type(1) {
+    display: none;
+  }
+  .comments__card:nth-of-type(4) {
+    display: none;
+  }
+  .comments__card:nth-of-type(2) {
+    margin-left: 30px;
+  }
+}

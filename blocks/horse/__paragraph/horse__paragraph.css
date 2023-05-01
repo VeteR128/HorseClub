@@ -9,3 +9,10 @@
   color: #7e7e7e;
   margin: 25px 45px 45px;
 }
+@media screen and (max-width: 1400px) {
+  .horse__paragraph {
+    font-size: 12px;
+    line-height: 150%;
+    margin: 15px 16px 31px;
+  }
+}

@@ -6,3 +6,26 @@
   margin-right: calc(375% / (1920 / 100));
   margin-bottom: calc(100% / (1920 / 100));
 }
+@media screen and (max-width: 1420px) {
+  .why__cards {
+    margin-left: calc(150% / (1920 / 100));
+    margin-right: calc(150% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .why__cards {
+    margin-left: calc(50% / (1920 / 100));
+    margin-right: calc(50% / (1920 / 100));
+  }
+}
+@media screen and (max-width: 768px) {
+  .why__cards {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 24px;
+  }
+}

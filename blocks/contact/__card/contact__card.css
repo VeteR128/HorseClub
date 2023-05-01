@@ -11,3 +11,19 @@
 
   margin-left: calc(375% / (1920 / 100));
 }
+@media screen and (max-width: 1200px) {
+  .contact__card {
+    max-width: 500px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact__card {
+    max-width: 354px;
+  }
+}
+@media screen and (max-width: 646px) {
+  .contact__card {
+    margin-left: 0;
+  }
+}

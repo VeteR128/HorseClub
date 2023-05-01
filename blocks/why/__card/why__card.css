@@ -19,3 +19,8 @@
 .why__card:nth-of-type(4) .why__card-title {
   margin-top: 7px;
 }
+@media screen and (max-width: 768px) {
+  .why__card {
+    margin-right: 0;
+  }
+}

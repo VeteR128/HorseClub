@@ -7,3 +7,15 @@
   color: #7e7e7e;
   margin: 25px 45px 45px;
 }
+@media screen and (max-width: 1700px) {
+  .club__card-subtitle {
+    margin: 11px 25px 45px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .club__card-subtitle {
+    font-size: 13px;
+    line-height: 154%;
+  }
+}

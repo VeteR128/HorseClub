@@ -4,5 +4,12 @@
   background-size: cover;
   padding-top: 70px;
   padding-bottom: 70px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 646px) {
+  .contact {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }

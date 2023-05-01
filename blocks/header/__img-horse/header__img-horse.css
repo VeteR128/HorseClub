@@ -2,6 +2,7 @@
   position: absolute;
   max-width: 557px;
 
-  left: 973px;
-  top: 220px;
+  left: calc(1004% / (1920 / 100));
+  bottom: 96px;
+  width: 28%;
 }

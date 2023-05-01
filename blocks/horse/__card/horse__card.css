@@ -20,3 +20,25 @@
   margin-right: -35px;
   opacity: 0.4;
 }
+@media screen and (max-width: 1100px) {
+  .horse__card:nth-of-type(1) {
+    display: none;
+  }
+  .horse__card:nth-of-type(5) {
+    display: none;
+  }
+  .horse__card:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .horse__card {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .horse__card:nth-of-type(4) {
+    display: none;
+  }
+  .horse__card:nth-of-type(3) {
+    margin-right: 0;
+  }
+}

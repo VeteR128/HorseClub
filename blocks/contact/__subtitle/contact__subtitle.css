@@ -13,3 +13,11 @@
 .contact__subtitle:last-child {
   margin-bottom: 30px;
 }
+@media screen and (max-width: 800px) {
+  .contact__subtitle {
+    margin-bottom: 28px;
+    margin-right: 24px;
+    max-width: 261px;
+    width: 100%;
+  }
+}

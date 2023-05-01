@@ -8,3 +8,29 @@
   column-gap: 35px;
   grid-auto-rows: 0px;
 }
+@media screen and (max-width: 1200px) {
+  .club__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 43px;
+    column-gap: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .club__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 43px;
+    column-gap: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

@@ -1,3 +1,13 @@
 .header__navigation {
   margin-right: 57px;
 }
+@media screen and (max-width: 1000px) {
+  .header__navigation {
+    margin-right: 41px;
+  }
+}
+@media screen and (max-width: 761px) {
+  .header__navigation {
+    display: none;
+  }
+}
