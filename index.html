@@ -22,10 +22,10 @@
 
           <div class="header__info">
             <nav class="header__navigation">
-              <a class="header__link" href="">О нас</a>
-              <a class="header__link" href="">Услуги и цены</a>
-              <a class="header__link" href="">Фотоальбом</a>
-              <a class="header__link" href="">Контакты</a>
+              <a class="header__link" href="#about">О нас</a>
+              <a class="header__link" href="#price">Услуги и цены</a>
+              <a class="header__link" href="#photo">Фотоальбом</a>
+              <a class="header__link" href="#contact">Контакты</a>
             </nav>
             <div class="header__contact">
               <div class="header__contact-container">
@@ -74,7 +74,7 @@
         <img class="header__img-barn" src="images/barn.svg" alt="амбар" />
       </header>
       <main class="main">
-        <section class="about">
+        <section class="about" id="about">
           <h2 class="about__title">О нашем клубе</h2>
           <div class="about__container">
             <img
@@ -175,7 +175,7 @@
             </div>
           </div>
         </section>
-        <section class="club">
+        <section class="club" id="price">
           <h3 class="club__title">Направления клуба</h3>
           <p class="club__subtitle">Подзаголовок блока</p>
 
@@ -257,7 +257,7 @@
             />
           </div>
         </section>
-        <section class="horse">
+        <section class="horse" id="photo">
           <h3 class="horse__title">Наши лошади</h3>
           <div class="horse__cards">
             <div class="horse__card">
@@ -300,6 +300,10 @@
                 Уроки профессиональной верховой езды для любителей и начинающих
               </p>
             </div>
+          </div>
+          <div class="horse__buttons">
+            <button class="horse__left">⧼</button>
+            <button class="horse__right">⧽</button>
           </div>
         </section>
         <section class="question">
@@ -508,8 +512,12 @@
               </div>
             </div>
           </div>
+          <div class="comments__buttons">
+            <button class="comments__left">⧼</button>
+            <button class="comments__right">⧽</button>
+          </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
           <div class="contact__card">
             <h3 class="contact__title">Контакты</h3>
             <div class="contact__line"></div>
@@ -578,10 +586,10 @@
         <div class="footer__container">
           <img class="footer__logo" src="images/logofooter.svg" alt="лого" />
           <nav class="footer__navigation">
-            <a class="footer__link" href="">О нас</a>
-            <a class="footer__link" href="">Услуги и цены</a>
-            <a class="footer__link" href="">Фотоальбом</a>
-            <a class="footer__link" href="">Контакты</a>
+            <a class="footer__link" href="#about">О нас</a>
+            <a class="footer__link" href="#price">Услуги и цены</a>
+            <a class="footer__link" href="#photo">Фотоальбом</a>
+            <a class="footer__link" href="#contact">Контакты</a>
             <button class="footer__button">Заказать звонок</button>
           </nav>
         </div>
@@ -592,6 +600,18 @@
           <a class="footer__title" href="">Политика конфенденциальности</a>
         </div>
       </footer>
+      <div class="popup">
+        <div class="popup__container">
+          <img class="popup__close" src="images/Х.svg" alt="" />
+          <div class="popup__links">
+            <a class="popup__link" href="#about">О нас</a>
+            <a class="popup__link" href="#price">Услуги и цены</a>
+            <a class="popup__link" href="#photo">Фотоальбом</a>
+            <a class="popup__link" href="#contact">Контакты</a>
+          </div>
+        </div>
+      </div>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

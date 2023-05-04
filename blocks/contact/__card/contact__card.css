@@ -27,3 +27,8 @@
     margin-left: 0;
   }
 }
+@media screen and (max-width: 395px) {
+  .contact__card {
+    max-width: 300px;
+  }
+}

@@ -20,3 +20,10 @@
     margin-top: 150px;
   }
 }
+@media screen and (max-width: 395px) {
+  .contact__img-vector {
+    margin-left: 0;
+    margin-bottom: 79px;
+    margin-top: 100px;
+  }
+}

@@ -13,3 +13,14 @@
   padding: 20px 0;
   padding-left: 21px;
 }
+@media screen and (max-width: 768px) {
+  .question__number {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .question__number {
+    max-width: 225px;
+    width: 100%;
+  }
+}

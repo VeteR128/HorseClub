@@ -1,0 +1,15 @@
+.comments__buttons {
+  margin-bottom: 150px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .comments__buttons {
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .comments__buttons {
+    margin-bottom: 55px;
+  }
+}

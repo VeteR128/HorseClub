@@ -10,3 +10,8 @@
     margin-bottom: 370px;
   }
 }
+@media screen and (max-width: 470px) {
+  .question__container {
+    margin-bottom: 230px;
+  }
+}

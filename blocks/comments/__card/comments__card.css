@@ -9,6 +9,8 @@
   margin-right: 30px;
   max-width: 570px;
   width: 100%;
+
+  transition: all ease-in-out 1s;
 }
 .comments__card:nth-of-type(1) {
   margin-left: -222px;
@@ -31,5 +33,14 @@
   }
   .comments__card:nth-of-type(2) {
     margin-left: 30px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .comments__card:nth-of-type(3) {
+    display: none;
+  }
+  .comments__card {
+    max-width: 300px;
+    width: 100%;
   }
 }

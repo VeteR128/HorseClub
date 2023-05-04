@@ -11,7 +11,22 @@
   margin-top: 170px;
   margin-bottom: 70px;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .comments__title {
+    font-size: 30px;
+    line-height: 120%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .comments__title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .comments__title {
+    font-size: 21px;
+    line-height: 100%;
   }
 }

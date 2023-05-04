@@ -5,6 +5,8 @@
   line-height: 213%;
   display: flex;
   align-items: center;
+  cursor: pointer;
+
   text-align: center;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -16,6 +18,12 @@
   border-radius: 5px;
   border: none;
   box-shadow: 5px 5px 5px rgb(39, 34, 34);
+  transition: all ease-in 1s;
+  opacity: 0.95;
+}
+.header__button:hover {
+  opacity: 1;
+  background: linear-gradient(180deg, #b2ce38 6%, #e8c31fe2 94%);
 }
 @media screen and (max-width: 1420px) {
   .header__button {

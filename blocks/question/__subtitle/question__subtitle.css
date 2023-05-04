@@ -9,3 +9,17 @@
   color: #7e7e7e;
   margin: 0 50px 30px;
 }
+@media screen and (max-width: 768px) {
+  .question__subtitle {
+    font-size: 13px;
+    line-height: 162%;
+    margin: 0 40px 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .question__subtitle {
+    font-size: 13px;
+    line-height: 162%;
+    margin: 0 10px 30px;
+  }
+}

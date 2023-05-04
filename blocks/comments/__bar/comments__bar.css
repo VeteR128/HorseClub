@@ -26,3 +26,8 @@
     margin-right: 110px;
   }
 }
+@media screen and (max-width: 395px) {
+  .comments__bar {
+    margin-right: 30px;
+  }
+}

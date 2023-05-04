@@ -8,6 +8,7 @@
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #6a5300;
+  cursor: pointer;
 
   max-width: 332px;
   width: 100%;
@@ -18,4 +19,15 @@
   border: none;
   box-shadow: 5px 5px 5px rgb(39, 34, 34);
   margin: 0 0 30px;
+}
+.question__submit:hover {
+  background: linear-gradient(180deg, #b2ce38 6%, #e8c31fe2 94%);
+}
+@media screen and (max-width: 440px) {
+  .question__submit {
+    font-size: 10px;
+    line-height: 10px;
+    max-width: 225px;
+    width: 100%;
+  }
 }

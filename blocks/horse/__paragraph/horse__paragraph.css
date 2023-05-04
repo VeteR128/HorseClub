@@ -16,3 +16,8 @@
     margin: 15px 16px 31px;
   }
 }
+@media screen and (max-width: 480px) {
+  .horse__paragraph {
+    margin: 10px 10px 14px;
+  }
+}

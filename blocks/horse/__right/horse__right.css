@@ -1,0 +1,7 @@
+.horse__right {
+  background: linear-gradient(180deg, #9bcfff 0%, #fff8b6 0.01%, #ffc700 100%);
+  box-shadow: 0px 1px 0px #c89c00;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}

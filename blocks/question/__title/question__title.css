@@ -10,3 +10,20 @@
   color: #363434;
   margin: 60px 0 15px;
 }
+@media screen and (max-width: 768px) {
+  .question__title {
+    margin-top: 50px;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .question__title {
+    margin-top: 40px;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .question__title {
+    font-size: 22px;
+  }
+}

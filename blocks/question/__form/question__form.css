@@ -22,3 +22,15 @@
     margin-right: 0;
   }
 }
+@media screen and (max-width: 540px) {
+  .question__form {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .question__form {
+    max-width: 300px;
+    width: 100%;
+  }
+}

@@ -3,6 +3,7 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 213%;
+  cursor: pointer;
 
   text-align: center;
   letter-spacing: 0.07em;
@@ -18,6 +19,9 @@
   box-shadow: 5px 5px 5px rgb(39, 34, 34);
   margin-top: 50px;
   margin-bottom: 100px;
+}
+.club__button:hover {
+  background: linear-gradient(180deg, #b2ce38 6%, #e8c31fe2 94%);
 }
 @media screen and (max-width: 1200px) {
   .club__button {

@@ -1,5 +1,17 @@
 .comments__cards {
   display: flex;
   flex-direction: row;
-  margin-bottom: 250px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .comments__cards {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .comments__cards {
+    justify-content: center;
+    margin-bottom: 35px;
+  }
 }

@@ -6,3 +6,9 @@
 
   color: #8a8a8a;
 }
+@media screen and (max-width: 440px) {
+  .question__radio-label {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

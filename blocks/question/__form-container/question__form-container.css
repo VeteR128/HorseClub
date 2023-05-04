@@ -2,3 +2,13 @@
   margin: 0 70px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 540px) {
+  .question__form-container {
+    margin: 0 58px 30px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .question__form-container {
+    margin: 0 27px 20px;
+  }
+}
